@@ -17,9 +17,9 @@ function App() {
 
   const [songs, setSongs] = useState(data());
   const [currentSong, setCurrentSong] = useState(songs[0]);
-  const [isPlaying, setIsPlaying] = useState(false);
+  const [isPlaying, setIsPlaying] = useState(true);
   const [isLibOpen, setIsLibOpen] = useState(false);
-  const [isPlaylistRepeat, setIsPlaylistRepeat] = useState(false);
+  const [isPlaylistRepeat, setIsPlaylistRepeat] = useState(true);
   const [songState, setSongState] = useState({
     currentTime: 0,
     duration: 0,

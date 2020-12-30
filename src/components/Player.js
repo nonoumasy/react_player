@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect} from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faPlay,
@@ -19,6 +19,9 @@ const Player = ({
   songState,
   setSongState,
 }) => {
+  var upClass = 'toggle-up';
+  var downClass = 'toggle-down';
+
   // helpers
   const getNormalTime = (time) => {
     if (time) {
@@ -29,13 +32,15 @@ const Player = ({
       return '0:00';
     }
   };
-
+  console.log(audioRef)
   // event handlers
   const handlePlayPauseSong = () => {
     if (isPlaying) {
       audioRef.current.pause();
+      audioRef.className = audioRef.className.replace(upClass, downClass);
     } else {
       audioRef.current.play();
+        audioRef.className = audioRef.className.replace(downClass, upClass);
     }
     setIsPlaying((isPlaying) => !isPlaying);
   };
@@ -92,6 +97,7 @@ const Player = ({
             size="3x"
             icon={isPlaying ? faPause : faPlay}
             onClick={handlePlayPauseSong}
+
           />
         </button>
         <button disabled={!buttonStatus.next}>
