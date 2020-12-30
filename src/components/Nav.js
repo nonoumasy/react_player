@@ -11,7 +11,7 @@ const Nav = ({ isLibOpen, setIsLibOpen }) => {
   return (
     <div>
       <nav>
-        <h1>Player</h1>
+        <h2>Player</h2>
         <button onClick={handleLibClick}>
           <FontAwesomeIcon
             icon={isLibOpen ? faChevronLeft : faBars}
