@@ -62,7 +62,7 @@ const Player = ({
         <p>{getNormalTime(songState.currentTime)}</p>
         <div
           style={{
-            background: "#03a9f4",
+            background: "#01A4C3",
           }}
           className="track"
         >
@@ -81,7 +81,7 @@ const Player = ({
         <button disabled={!buttonStatus.previous}>
           <FontAwesomeIcon
             className="skip-back"
-            size="4x"
+            size="2x"
             icon={faAngleLeft}
             onClick={prevSong}
           />
@@ -89,7 +89,7 @@ const Player = ({
         <button>
           <FontAwesomeIcon
             className="play"
-            size="5x"
+            size="3x"
             icon={isPlaying ? faPause : faPlay}
             onClick={handlePlayPauseSong}
           />
@@ -97,7 +97,7 @@ const Player = ({
         <button disabled={!buttonStatus.next}>
           <FontAwesomeIcon
             className="skip-forward"
-            size="4x"
+            size="2x"
             icon={faAngleRight}
             onClick={nextSong}
           />

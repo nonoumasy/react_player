@@ -29,7 +29,7 @@ const Library = ({
       <div className="heading-container">
         <h2>Library</h2>
         <button onClick={() => setIsLibOpen(false)}>
-          <FontAwesomeIcon icon={faTimes} size="2x" />
+          <FontAwesomeIcon icon={faTimes} size="1x" />
         </button>
       </div>
       <div className="library-songs">{renderSongItems()}</div>

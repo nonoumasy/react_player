@@ -15,7 +15,7 @@ const Nav = ({ isLibOpen, setIsLibOpen }) => {
         <button onClick={handleLibClick}>
           <FontAwesomeIcon
             icon={isLibOpen ? faChevronLeft : faBars}
-            size="2x"
+            size="1x"
           />
         </button>
       </nav>
