@@ -1,0 +1,42 @@
+$primary-color: #03a9f4;
+$primary-light-color: #67daff;
+$primary-dark-color: #007ac1;
+$primary-text-color: #333;
+$secondary-text-color: #666;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2 {
+  font-weight: 700;
+  color: $primary-text-color;
+  padding: 1rem 0rem 0rem 0rem;
+}
+
+h3,
+h4 {
+  font-weight: 400;
+  color: $primary-text-color;
+  padding: 0rem 0rem 2rem 0rem;
+}
+
+.App {
+  transition: all 0.5s ease;
+}
+
+.library-active {
+  margin-left: 20rem;
+}
+
+@import './song';
+@import './player';
+@import './library';
+@import './nav';
