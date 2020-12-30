@@ -37,10 +37,10 @@ const Player = ({
   const handlePlayPauseSong = () => {
     if (isPlaying) {
       audioRef.current.pause();
-      audioRef.className = audioRef.className.replace(upClass, downClass);
+      // audioRef.className = audioRef.className.replace(upClass, downClass);
     } else {
       audioRef.current.play();
-        audioRef.className = audioRef.className.replace(downClass, upClass);
+      // audioRef.className = audioRef.className.replace(downClass, upClass);
     }
     setIsPlaying((isPlaying) => !isPlaying);
   };
