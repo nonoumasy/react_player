@@ -27,7 +27,7 @@ const Library = ({
   return (
     <div className={`library ${isLibOpen ? 'active-library' : ''}`}>
       <div className="heading-container">
-        <h2>Library</h2>
+        <h2>Playlist</h2>
         <button onClick={() => setIsLibOpen(false)}>
           <FontAwesomeIcon icon={faTimes} size="1x" />
         </button>
