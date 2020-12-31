@@ -16,10 +16,10 @@ const Player = ({
   prevSong,
   buttonStatus,
   audioRef,
+  albumRef,
   songState,
   setSongState,
 }) => {
-  
 
   // helpers
   const getNormalTime = (time) => {
@@ -31,15 +31,12 @@ const Player = ({
       return '0:00';
     }
   };
-  // console.log(audioRef)
   // event handlers
   const handlePlayPauseSong = () => {
     if (isPlaying) {
       audioRef.current.pause();
-      // audioRef.className = audioRef.className.replace(upClass, downClass);
     } else {
       audioRef.current.play();
-      // audioRef.className = audioRef.className.replace(downClass, upClass);
     }
     setIsPlaying((isPlaying) => !isPlaying);
   };
@@ -95,7 +92,7 @@ const Player = ({
         <button>
           <FontAwesomeIcon
             className="play"
-            size="3x"
+            size="2x"
             icon={isPlaying ? faPause : faPlay}
             onClick={handlePlayPauseSong}
 

@@ -1,9 +1,10 @@
-import React from 'react';
+import React, {useRef} from 'react';
 
-const Song = ({ currentSong }) => {
+const Song = ({ currentSong, albumRef}) => {
+
   return (
     <div className="song-container">
-      <img src={currentSong.cover} alt={currentSong.name} />
+      <img className="album_cover" ref={albumRef} src={currentSong.cover} alt={currentSong.name} />
       <h2>{currentSong.name}</h2>
       <h3>{currentSong.artist}</h3>
       <p className="lyrics">

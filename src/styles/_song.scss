@@ -14,20 +14,13 @@
   }
   }
 
-  img {
+  .album_cover {
     width: 25%;
     border-radius: 50%;
     overflow: hidden;
     // margin: 1rem;
     animation: rotation 10s infinite linear;
-  }
-
-  .toggle-down {
-  animation: rotation 10s infinite linear;
-}
-
-  .toggle-up {
-  transform: rotate(0deg);
+  
 }
 
   h2 {

@@ -14,6 +14,7 @@ import Library from './components/Library';
 
 function App() {
   const audioRef = useRef(null);
+  const albumRef = useRef()
 
   const [songs, setSongs] = useState(data());
   const [currentSong, setCurrentSong] = useState(songs[0]);
@@ -90,9 +91,10 @@ function App() {
   return (
     <div className={`App ${isLibOpen ? 'library-active' : ''}`}>
       <Nav isLibOpen={isLibOpen} setIsLibOpen={setIsLibOpen} />
-      <Song currentSong={currentSong} />
+      <Song currentSong={currentSong} albumRef={albumRef}/>
       <Player
         audioRef={audioRef}
+        albumRef={albumRef}
         songs={songs}
         currentSong={currentSong}
         songState={songState}
