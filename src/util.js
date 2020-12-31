@@ -79,7 +79,7 @@ function chillHop() {
     {
       name: 'Under the Milky Way',
       cover:
-        'https://img.discogs.com/VsLcVcC4PRICatcM4moq6i_r8tM=/fit-in/600x600/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-910452-1171897819.jpeg.jpg',
+        'https://www.popsike.com/pix/20160519/351738513214.jpg',
       artist: 'The Church',
       audio: 'https://media.hungama.com/c/4/514/28c/42800793/42800793_128.mp3?8D4xOzWoZIrGJ4uMb6UnP9yXK7FuEx6iUErs2wt3240sBY29xpY2Z83VTJMEsTPedjSsCIYmo0ms1PrYVMOzMEE20YFOFIGbNzDb2cvYpC_XwNW8DlWCezxfpfOoms5VaSjpkw',
       color: ['#205950', '#2ab3bf'],
