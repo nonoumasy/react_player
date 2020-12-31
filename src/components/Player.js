@@ -19,8 +19,7 @@ const Player = ({
   songState,
   setSongState,
 }) => {
-  var upClass = 'toggle-up';
-  var downClass = 'toggle-down';
+  
 
   // helpers
   const getNormalTime = (time) => {
