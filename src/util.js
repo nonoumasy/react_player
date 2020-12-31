@@ -49,34 +49,46 @@ function chillHop() {
         And the world comes tumbling down`
     },
     {
-      name: 'Nightfall',
+      name: 'Running To Stand Still',
       cover:
-        'https://chillhop.com/wp-content/uploads/2020/07/ef95e219a44869318b7806e9f0f794a1f9c451e4-1024x1024.jpg',
-      artist: 'Aiguille',
-      audio: 'https://mp3.chillhop.com/serve.php/?mp3=9148',
+        'https://www.shoppingtill.co.uk/media/catalog/product/B/0/B0041SMR1W1.jpg',
+      artist: 'U2',
+      audio: 'https://media.hungama.com/c/4/8ea/0e6/1461663/1461663_128.mp3?fQD-18N3xDXZT9t6F1gpVVCu9YytT7WikaFxDSSxeEcnWaU5kIt5bHnQvKXgT3qRcHX7xRzjeokDgoPoCHTD2Kp_aHSJk7rhMpYplUsDJiQ_gtu2ykg192dIKzSjakzuTtY',
       color: ['#EF8EA9', '#ab417f'],
       id: uuidv4(),
       active: false,
+      lyrics: `And so she woke up
+        Woke up from where she was lyin' still
+        Said I gotta do something
+        About where we're goin'`
     },
     {
-      name: 'Reflection',
+      name: 'Motorcrash',
       cover:
-        'https://chillhop.com/wp-content/uploads/2020/07/ff35dede32321a8aa0953809812941bcf8a6bd35-1024x1024.jpg',
-      artist: 'Swørn',
-      audio: 'https://mp3.chillhop.com/serve.php/?mp3=9228',
+        'https://images-na.ssl-images-amazon.com/images/I/416MCPPJ7RL._AC_UL600_SR600,600_.jpg',
+      artist: 'Sugarcubes',
+      audio: 'https://media.hungama.com/c/4/602/122/24317158/24317158_128.mp3?u2PmwMsLkDzCJa3aXNHX38zuf8xG2qS42hYA2GGJhERQdrkK9KpoDjAS4Qwx4gAYRQ7hEh2uKPbQIVcA3EUsZO3IXVarAaN3BqgxRFIfiz1nWN55caGqWD6I3W_AGVrEObwBtQ',
       color: ['#CD607D', '#c94043'],
       id: uuidv4(),
       active: false,
+      lyrics: `Riding on my bicycle i saw a motorcrash,
+        A proper motorcrash and lots of spectators.
+        I rushed to the centre saw the injured parents,
+        Cuts on the children, an awful motorcrash.`
     },
     {
-      name: 'Under the City Stars',
+      name: 'Under the Milky Way',
       cover:
-        'https://chillhop.com/wp-content/uploads/2020/09/0255e8b8c74c90d4a27c594b3452b2daafae608d-1024x1024.jpg',
-      artist: 'Aso, Middle School, Aviino',
-      audio: 'https://mp3.chillhop.com/serve.php/?mp3=10074',
+        'https://m.media-amazon.com/images/I/71YQi7R1URL._SS500_.jpg',
+      artist: 'The Church',
+      audio: 'https://media.hungama.com/c/4/514/28c/42800793/42800793_128.mp3?8D4xOzWoZIrGJ4uMb6UnP9yXK7FuEx6iUErs2wt3240sBY29xpY2Z83VTJMEsTPedjSsCIYmo0ms1PrYVMOzMEE20YFOFIGbNzDb2cvYpC_XwNW8DlWCezxfpfOoms5VaSjpkw',
       color: ['#205950', '#2ab3bf'],
       id: uuidv4(),
       active: false,
+      lyrics:`Sometimes, when this place gets kind of empty
+        Sound of their breath fades with the light
+        I think about the loveless fascination
+        Under the Milky Way tonight`
     },
     //ADD MORE HERE
   ];
