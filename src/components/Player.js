@@ -63,13 +63,6 @@ const Player = ({
   return (
     <div className="player">
 
-      <div className="lyrics">
-        <p className='lyrics-active'>Listen to the girl</p>
-        <p className='lyrics-inactive'>As she takes on half the world</p>
-        <p className='lyrics-inactive'>Moving up and so alive</p>
-        <p className='lyrics-inactive'>In her honey dripping beehive</p >
-      </div>
-
       <div className="time-control">
         <p>{getNormalTime(songState.currentTime)}</p>
         <div
