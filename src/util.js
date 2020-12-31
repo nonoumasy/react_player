@@ -2,19 +2,22 @@ import { v4 as uuidv4 } from 'uuid';
 function chillHop() {
   return [
     {
-      name: 'Cherry Came Too',
+      name: 'Just Like Honey',
       cover:
         'https://www.rhino.com/sites/rhino.com/files/styles/article_image/public/2018-07/081227993702.jpg?itok=BfHQJWQh',
       artist: 'Jesus Mary Chain',
-      audio: 'https://media.hungama.com/c/4/e43/125/37966927/37966927_128.mp3?3SLaBfMfOe31jRZKPbahzIEs_LvkoIeaLZkPQJnf72JDy9Q23n9PC1PmN3gXtp3vbKmId0QetQcd6i-GHoFj_IwdETWONYwG0BNRCVnuie77nfX4x5-MbXfrgarCKjrrifxAGQ',
+      audio: 'https://ia803002.us.archive.org/30/items/Psychocandy/01JustLikeHoney.mp3',
       color: ['#205950', '#2ab3bf'],
       id: uuidv4(),
       active: true,
       lyrics: `
-        When she walks towards me
-        I feel something
-        Crawl beneath my skin
-        And all the electric stars are shining`
+        Listen to the girl
+        As she takes on half the world
+        Moving up and so alive
+        In her honey dripping beehive
+        Beehive
+        
+      `
     },
     {
       name: 'Love Will Tear Us Apart',
