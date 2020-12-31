@@ -7,7 +7,7 @@ const Song = ({ currentSong }) => {
       <h2>{currentSong.name}</h2>
       <h3>{currentSong.artist}</h3>
       <p className="lyrics">
-        {currentSong.lyrics && currentSong.lyrics.substring(0, 140)}
+        {currentSong.lyrics && currentSong.lyrics.substring(0, 80)}
       </p>
     </div>
   );
