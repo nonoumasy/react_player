@@ -1,9 +1,11 @@
 .player {
-  min-height: 10vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
+  margin: 0 auto;
+  width: 80vw;
+  bottom: 3rem;
 
   button {
     border: 0px;
@@ -15,8 +17,12 @@
   }
 }
 
+.lyrics {
+  margin: 3rem auto;
+}
+
 .time-control {
-  width: 70%;
+  width: 80%;
   display: flex;
   justify-content: center;
   align-items: center;

@@ -32,7 +32,7 @@ const Player = ({
       return '0:00';
     }
   };
-  console.log(audioRef)
+  // console.log(audioRef)
   // event handlers
   const handlePlayPauseSong = () => {
     if (isPlaying) {
@@ -63,6 +63,14 @@ const Player = ({
 
   return (
     <div className="player">
+
+      <div className="lyrics">
+        <p>Listen to the girl</p>
+        <p>As she takes on half the world</p>
+        <p>Moving up and so alive</p>
+        <p>In her honey dripping beehive</p >
+      </div>
+
       <div className="time-control">
         <p>{getNormalTime(songState.currentTime)}</p>
         <div
@@ -82,6 +90,7 @@ const Player = ({
         </div>
         <p>{getNormalTime(songState.duration)}</p>
       </div>
+
       <div className="play-control">
         <button disabled={!buttonStatus.previous}>
           <FontAwesomeIcon

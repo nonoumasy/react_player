@@ -9,9 +9,8 @@ const Nav = ({ isLibOpen, setIsLibOpen }) => {
   };
 
   return (
-    <div>
       <nav>
-        <h2>Player</h2>
+        <h2></h2>
         <button onClick={handleLibClick}>
           <FontAwesomeIcon
             icon={isLibOpen ? faChevronLeft : faBars}
@@ -19,7 +18,6 @@ const Nav = ({ isLibOpen, setIsLibOpen }) => {
           />
         </button>
       </nav>
-    </div>
   );
 };
 
