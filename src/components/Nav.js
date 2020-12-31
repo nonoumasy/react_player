@@ -10,13 +10,14 @@ const Nav = ({ isLibOpen, setIsLibOpen }) => {
 
   return (
       <nav>
+      <button onClick={handleLibClick}>
+        <FontAwesomeIcon
+          icon={isLibOpen ? faChevronLeft : faBars}
+          size="1x"
+        />
+      </button>
         <h2></h2>
-        <button onClick={handleLibClick}>
-          <FontAwesomeIcon
-            icon={isLibOpen ? faChevronLeft : faBars}
-            size="1x"
-          />
-        </button>
+        
       </nav>
   );
 };

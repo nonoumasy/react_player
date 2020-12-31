@@ -12,6 +12,7 @@ const Library = ({
   isLibOpen,
   setIsLibOpen,
 }) => {
+
   const renderSongItems = () => {
     return songs.map((song) => (
       <LibrarySong
@@ -32,7 +33,11 @@ const Library = ({
           <FontAwesomeIcon icon={faTimes} size="1x" />
         </button>
       </div>
-      <div className="library-songs">{renderSongItems()}</div>
+
+      <div className="library-songs">
+        {renderSongItems()}
+      </div>
+      
     </div>
   );
 };
