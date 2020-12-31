@@ -65,10 +65,10 @@ const Player = ({
     <div className="player">
 
       <div className="lyrics">
-        <p>Listen to the girl</p>
-        <p>As she takes on half the world</p>
-        <p>Moving up and so alive</p>
-        <p>In her honey dripping beehive</p >
+        <p className='lyrics-active'>Listen to the girl</p>
+        <p className='lyrics-inactive'>As she takes on half the world</p>
+        <p className='lyrics-inactive'>Moving up and so alive</p>
+        <p className='lyrics-inactive'>In her honey dripping beehive</p >
       </div>
 
       <div className="time-control">
