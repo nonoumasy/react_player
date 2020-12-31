@@ -16,36 +16,7 @@ function chillHop() {
         Moving up and so alive
         In her honey dripping beehive
         Beehive
-        It's good, so good, it's so good
-        So good
-        Walking back to you
-        Is the hardest thing that
-        I can do
-        That I can do for you
-        For you
-        I'll be your plastic toy
-        I'll be your plastic toy
-        For you
-        Eating up the scum
-        Is the hardest thing for
-        Me to do
-        Just like honey
-        Just like honey
-        Just like honey
-        Just like honey
-        Just like honey
-        Just like honey
-        Just like honey
-        Just like honey
-        Just like honey
-        Just like honey
-        Just like honey
-        Just like honey
-        Just like honey
-        Just like honey
-        Just like honey
-        Just like honey
-        Just like honey
+        
       `
     },
     {
@@ -53,10 +24,15 @@ function chillHop() {
       cover:
         'https://i.pinimg.com/originals/d4/7f/34/d47f34a612983fa65f98b5da356997ff.jpg',
       artist: 'Joy Division',
-      audio: 'https://mp3.chillhop.com/serve.php/?mp3=9272',
+      audio: 'https://media.hungama.com/c/4/852/0b3/3435798/3435798_128.mp3?WZZMJGoDHcXczpVTTYxLfqnajHQ_lXRZ9GwddkYv9MOqk56tDzCwis2-Q27bfEomBRjf2BZK2nqFceLSss3Ec4fLnn9PuvYD1CuM3VrU5TTcfJYSVPsDsnWgRSXSilwVHo0',
       color: ['#EF8EA9', '#ab417f'],
       id: uuidv4(),
       active: false,
+      lyrics: `When routine bites hard and ambitions are low
+        And resentment rides high but emotions won't grow
+        And we're changing our ways, taking different roads
+        Love, love will tear us apart again
+        Love, love will tear us apart again`
     },
     {
       name: 'April Skies',
@@ -67,6 +43,10 @@ function chillHop() {
       color: ['#CD607D', '#c94043'],
       id: uuidv4(),
       active: false,
+      lyrics: `Hey honey what you trying to say
+        As I stand here
+        Don't you walk away
+        And the world comes tumbling down`
     },
     {
       name: 'Nightfall',
