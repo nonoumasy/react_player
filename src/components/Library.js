@@ -42,6 +42,11 @@ const Library = ({
     setSongs(items);
   }
 
+  const clickHandler = (song) => {
+      setCurrentSong(song)
+      handlePlayPauseSong()
+    }
+
   return (
     <div className={`library ${isLibOpen ? 'active-library' : ''}`}>
       <div className="heading-container">
@@ -84,10 +89,7 @@ const Library = ({
                       <div className="library-songs">
                         <div
                           className={`library-song ${song.id === currentSong.id ? 'active' : ''}`}
-                          onClick={() => {
-                            setCurrentSong(song)
-                            handlePlayPauseSong()
-                          }}
+                          onClick={() => clickHandler(song)}
                         >
                           <img src={song.cover} alt={song.name} />
                           <div className="song-description">
