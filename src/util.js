@@ -20,11 +20,11 @@ function chillHop() {
       `
     },
     {
-      name: 'Love Will Tear Us Apart',
+      name: 'The Living End',
       cover:
-        'https://i.pinimg.com/originals/d4/7f/34/d47f34a612983fa65f98b5da356997ff.jpg',
-      artist: 'Joy Division',
-      audio: 'https://mp3.chillhop.com/serve.php/?mp3=10075',
+        'https://www.rhino.com/sites/rhino.com/files/styles/article_image/public/2018-07/081227993702.jpg?itok=BfHQJWQh',
+      artist: 'Jesus Mary Chain',
+      audio: 'https://ia803002.us.archive.org/30/items/Psychocandy/02TheLivingEnd.mp3',
       color: ['#EF8EA9', '#ab417f'],
       id: uuidv4(),
       active: false,
@@ -35,11 +35,11 @@ function chillHop() {
         Love, love will tear us apart again`
     },
     {
-      name: 'April Skies',
+      name: 'Taste of Cindy',
       cover:
-        'https://www.rhino.com/sites/rhino.com/files/styles/square/public/products/darklands.jpg?itok=tUqWxuBP',
+        'https://www.rhino.com/sites/rhino.com/files/styles/article_image/public/2018-07/081227993702.jpg?itok=BfHQJWQh',
       artist: 'Jesus Mary Chain',
-      audio: 'https://ia803002.us.archive.org/30/items/Psychocandy/01JustLikeHoney.mp3',
+      audio: 'https://ia803002.us.archive.org/30/items/Psychocandy/07TasteOfCindy.mp3',
       color: ['#CD607D', '#c94043'],
       id: uuidv4(),
       active: false,
@@ -49,11 +49,11 @@ function chillHop() {
         And the world comes tumbling down`
     },
     {
-      name: 'Running To Stand Still',
+      name: 'Some Candy Talking',
       cover:
-        'https://www.shoppingtill.co.uk/media/catalog/product/B/0/B0041SMR1W1.jpg',
-      artist: 'U2',
-      audio: 'https://mp3.chillhop.com/serve.php/?mp3=10075',
+        'https://www.rhino.com/sites/rhino.com/files/styles/article_image/public/2018-07/081227993702.jpg?itok=BfHQJWQh',
+      artist: 'Jesus Mary Chain',
+      audio: 'https://ia803002.us.archive.org/30/items/Psychocandy/08SomeCandyTalking.mp3',
       color: ['#EF8EA9', '#ab417f'],
       id: uuidv4(),
       active: false,
@@ -63,11 +63,11 @@ function chillHop() {
         About where we're goin'`
     },
     {
-      name: 'Motorcrash',
+      name: 'Never Understand',
       cover:
-        'https://images-na.ssl-images-amazon.com/images/I/416MCPPJ7RL._AC_UL600_SR600,600_.jpg',
-      artist: 'Sugarcubes',
-      audio: 'https://ia803002.us.archive.org/30/items/Psychocandy/01JustLikeHoney.mp3',
+        'https://www.rhino.com/sites/rhino.com/files/styles/article_image/public/2018-07/081227993702.jpg?itok=BfHQJWQh',
+      artist: 'Jesus Mary Chain',
+      audio: 'https://ia803002.us.archive.org/30/items/Psychocandy/09NeverUnderstand.mp3',
       color: ['#CD607D', '#c94043'],
       id: uuidv4(),
       active: false,
@@ -77,11 +77,11 @@ function chillHop() {
         Cuts on the children, an awful motorcrash.`
     },
     {
-      name: 'Under the Milky Way',
+      name: 'You Trip me Up',
       cover:
-        'https://www.popsike.com/pix/20160519/351738513214.jpg',
-      artist: 'The Church',
-      audio: 'https://mp3.chillhop.com/serve.php/?mp3=10075',
+        'https://www.rhino.com/sites/rhino.com/files/styles/article_image/public/2018-07/081227993702.jpg?itok=BfHQJWQh',
+      artist: 'Jesus Mary Chain',
+      audio: 'https://ia803002.us.archive.org/30/items/Psychocandy/13YouTripMeUp.mp3',
       color: ['#205950', '#2ab3bf'],
       id: uuidv4(),
       active: false,
