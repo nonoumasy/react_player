@@ -7,12 +7,14 @@ import { DragDropContext, Droppable, Draggable } from "react-beautiful-dnd";
 
 const Library = ({
   songs,
+  // audioRef,
   setSongs,
   currentSong,
   setCurrentSong,
   setIsPlaying,
   isLibOpen,
   setIsLibOpen,
+  handlePlayPauseSong
 }) => {
 
   // const [items, setItems] = useState([])
@@ -82,7 +84,10 @@ const Library = ({
                       <div className="library-songs">
                         <div
                           className={`library-song ${song.id === currentSong.id ? 'active' : ''}`}
-                          onClick={() => setCurrentSong(song)}
+                          onClick={() => {
+                            setCurrentSong(song)
+                            handlePlayPauseSong()
+                          }}
                         >
                           <img src={song.cover} alt={song.name} />
                           <div className="song-description">

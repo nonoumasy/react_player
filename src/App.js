@@ -88,6 +88,16 @@ function App() {
     }
   };
 
+  // event handlers
+  const handlePlayPauseSong = () => {
+    if (isPlaying) {
+      audioRef.current.pause();
+    } else {
+      audioRef.current.play();
+    }
+    setIsPlaying((isPlaying) => !isPlaying);
+  };
+
   return (
     <div className={`App ${isLibOpen ? 'library-active' : ''}`}>
       <Nav isLibOpen={isLibOpen} setIsLibOpen={setIsLibOpen} />
@@ -106,6 +116,7 @@ function App() {
         buttonStatus={buttonStatus}
         isPlaylistRepeat={isPlaylistRepeat}
         setIsPlaylistRepeat={setIsPlaylistRepeat}
+        handlePlayPauseSong={handlePlayPauseSong}
       />
       <Library
         songs={songs}
@@ -115,6 +126,7 @@ function App() {
         setIsPlaying={setIsPlaying}
         isLibOpen={isLibOpen}
         setIsLibOpen={setIsLibOpen}
+        handlePlayPauseSong={handlePlayPauseSong}
       />
       <audio
         ref={audioRef}
