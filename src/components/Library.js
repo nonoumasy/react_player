@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 
 // import LibrarySong from './LibrarySong';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -7,6 +7,7 @@ import { DragDropContext, Droppable, Draggable } from "react-beautiful-dnd";
 
 const Library = ({
   songs,
+  setSongs,
   currentSong,
   setCurrentSong,
   setIsPlaying,
@@ -14,7 +15,7 @@ const Library = ({
   setIsLibOpen,
 }) => {
 
-  const [items, setItems] = useState([])
+  // const [items, setItems] = useState([])
 
   const reorder = (list, startIndex, endIndex) => {
     const result = Array.from(list);
@@ -36,7 +37,7 @@ const Library = ({
     result.destination.index
   );
 
-    setItems(items);
+    setSongs(items);
   }
 
   return (
