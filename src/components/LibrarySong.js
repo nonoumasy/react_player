@@ -4,7 +4,6 @@ const LibrarySong = ({ song, currentSong, setCurrentSong }) => {
   // handlers
   const handleSelectSong = () => {
     setCurrentSong(song);
-    
   };
 
   return (

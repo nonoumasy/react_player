@@ -19,9 +19,16 @@
     border-radius: 50%;
     overflow: hidden;
     // margin: 1rem;
+    animation: rotation 100s infinite linear;
+  }
+
+  .album_coverRotating  {
+    width: 25%;
+    border-radius: 50%;
+    overflow: hidden;
     animation: rotation 10s infinite linear;
+  }
   
-}
 
   h2 {
     padding: 2rem 1rem 0.5rem 1rem;
