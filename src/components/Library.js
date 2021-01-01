@@ -79,16 +79,19 @@ const Library = ({
                       {...provided.draggableProps}
                       {...provided.dragHandleProps}
                     >
-                      <div
-                        className={`library-song ${song.id === currentSong.id ? 'active' : ''}`}
-                        onClick={() => setCurrentSong(song)}
-                      >
-                        <img src={song.cover} alt={song.name} />
-                        <div className="song-description">
-                        <h3>{song.name}</h3>
-                        <h4>{song.artist}</h4>
+                      <div className="library-songs">
+                        <div
+                          className={`library-song ${song.id === currentSong.id ? 'active' : ''}`}
+                          onClick={() => setCurrentSong(song)}
+                        >
+                          <img src={song.cover} alt={song.name} />
+                          <div className="song-description">
+                            <h3>{song.name}</h3>
+                            <h4>{song.artist}</h4>
+                          </div>
                         </div>
                       </div>
+                      
 
                     </div>
                   )}
