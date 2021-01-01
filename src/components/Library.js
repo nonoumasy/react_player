@@ -33,7 +33,6 @@ const Library = ({
           <FontAwesomeIcon icon={faTimes} size="1x" />
         </button>
       </div>
-
       <div className="library-songs">
         {renderSongItems()}
       </div>
