@@ -28,11 +28,10 @@ function chillHop() {
       color: ['#EF8EA9', '#ab417f'],
       id: uuidv4(),
       active: false,
-      lyrics: `When routine bites hard and ambitions are low
-        And resentment rides high but emotions won't grow
-        And we're changing our ways, taking different roads
-        Love, love will tear us apart again
-        Love, love will tear us apart again`
+      lyrics: `I get ahead on my motorbike
+              I get ahead on my motorbike
+              I feel so quick in my leather boots
+              I feel so quick in my leather boots`
     },
     {
       name: 'Taste of Cindy',
@@ -43,10 +42,10 @@ function chillHop() {
       color: ['#CD607D', '#c94043'],
       id: uuidv4(),
       active: false,
-      lyrics: `Hey honey what you trying to say
-        As I stand here
-        Don't you walk away
-        And the world comes tumbling down`
+      lyrics: `Crack of dawn
+              Cindy's movin' on
+              Talking Cindy to everyone
+              'Till she's had her fun`
     },
     {
       name: 'Some Candy Talking',
@@ -57,10 +56,10 @@ function chillHop() {
       color: ['#EF8EA9', '#ab417f'],
       id: uuidv4(),
       active: false,
-      lyrics: `And so she woke up
-        Woke up from where she was lyin' still
-        Said I gotta do something
-        About where we're goin'`
+      lyrics: `I'm going down to the place tonight
+To see if I can get a taste tonight
+A taste of something warm and sweet
+That shivers your bones and rises to your heat`
     },
     {
       name: 'Never Understand',
@@ -71,10 +70,10 @@ function chillHop() {
       color: ['#CD607D', '#c94043'],
       id: uuidv4(),
       active: false,
-      lyrics: `Riding on my bicycle i saw a motorcrash,
-        A proper motorcrash and lots of spectators.
-        I rushed to the centre saw the injured parents,
-        Cuts on the children, an awful motorcrash.`
+      lyrics: `The sun comes up, another day begins
+And I don't even worry about the state I'm in
+My head's so heavy and I'm looking thin
+But when the sun goes down I'm gonna start again`
     },
     {
       name: 'You Trip me Up',
@@ -85,10 +84,9 @@ function chillHop() {
       color: ['#205950', '#2ab3bf'],
       id: uuidv4(),
       active: false,
-      lyrics:`Sometimes, when this place gets kind of empty
-        Sound of their breath fades with the light
-        I think about the loveless fascination
-        Under the Milky Way tonight`
+      lyrics:`Sometimes I walk sideways to avoid you when I've annoyed you
+Love's like the mighty ocean when it's frozen that is your heart
+What would I be if I could free, I couldn't even walk, you trip me up`
     },
     //ADD MORE HERE
   ];
