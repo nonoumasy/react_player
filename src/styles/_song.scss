@@ -43,7 +43,8 @@
   .lyrics {
     width: 50%;
     text-align: center;
-    margin: 3rem 2rem;
+    margin: 2rem 0rem;
+    white-space: pre-line;
   }
 
 @media screen and (max-width: 768px) {

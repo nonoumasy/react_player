@@ -70,7 +70,7 @@ That shivers your bones and rises to your heat`
       color: ['#CD607D', '#c94043'],
       id: uuidv4(),
       active: false,
-      lyrics: `The sun comes up, another day begins
+      lyrics: `The sun comes up, another day begins 
 And I don't even worry about the state I'm in
 My head's so heavy and I'm looking thin
 But when the sun goes down I'm gonna start again`
