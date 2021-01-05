@@ -99,21 +99,6 @@ function chillHop() {
       `
     },
     {
-      name: 'The Living End',
-      cover:
-        'https://www.rhino.com/sites/rhino.com/files/styles/article_image/public/2018-07/081227993702.jpg?itok=BfHQJWQh',
-      artist: 'Jesus Mary Chain',
-      audio: 'https://ia803002.us.archive.org/30/items/Psychocandy/02TheLivingEnd.mp3',
-      color: ['#EF8EA9', '#ab417f'],
-      id: uuidv4(),
-      active: false,
-      lyrics: `
-      I get ahead on my motorbike
-              I get ahead on my motorbike
-              I feel so quick in my leather boots
-              I feel so quick in my leather boots`
-    },
-    {
       name: 'Taste of Cindy',
       cover:
         'https://www.rhino.com/sites/rhino.com/files/styles/article_image/public/2018-07/081227993702.jpg?itok=BfHQJWQh',
@@ -122,10 +107,24 @@ function chillHop() {
       color: ['#CD607D', '#c94043'],
       id: uuidv4(),
       active: false,
-      lyrics: `Crack of dawn
-              Cindy's movin' on
-              Talking Cindy to everyone
-              'Till she's had her fun`
+      lyrics: `
+[00:00.00]Crack of dawn
+[00:03.00]Cindy's moving on
+[00:07.00]Talking Cindy to everyone
+[00:10.00]Till she's had her fun
+[00:15.00]She and me
+[00:17.00]We twist the sun and sea
+[00:21.00]Still, she's talking to everyone
+[00:25.00]Cindy's had her fun
+[00:29.00]Though I've heard it before
+[00:32.00]Still, I need it more and more
+[00:35.00]But I just can't get away
+[00:39.00]Cindy kills me every day
+[01:07.00]And I tried and I tried but she looked right through me
+[01:11.00]Knife to my head when she talks so sweetly
+[01:15.00]Knife in my head when I think of Cindy
+[01:18.00]Knife in my head is the taste of Cindy
+      `
     },
     {
       name: 'Never Understand',
@@ -153,6 +152,104 @@ function chillHop() {
       lyrics:`Sometimes I walk sideways to avoid you when I've annoyed you
               Love's like the mighty ocean when it's frozen that is your heart
               What would I be if I could free, I couldn't even walk, you trip me up`
+    },
+    {
+      name: `I Still Haven't Found What I'm Looking For`,
+      cover:
+        'https://images-na.ssl-images-amazon.com/images/I/71nhNKvy%2BfL._SL1059_.jpg',
+      artist: 'U2',
+      audio: 'https://download.mp3surf.icu/s/U2-I-Still-Havent-Found-What-Im-Looking-For.mp3',
+      color: ['#205950', '#2ab3bf'],
+      id: uuidv4(),
+      active: false,
+      lyrics: `
+      I have climbed highest mountain
+I have run through the fields
+Only to be with you
+Only to be with you
+
+I have run
+I have crawled
+I have scaled these city walls
+These city walls
+Only to be with you
+
+But I still haven't found what I'm looking for
+But I still haven't found what I'm looking for
+
+I have kissed honey lips
+Felt the healing in her fingertips
+It burned like fire
+This burning desire
+
+I have spoke with the tongue of angels
+I have held the hand of a devil
+It was warm in the night
+I was cold as a stone
+
+But I still haven't found what I'm looking for
+But I still haven't found what I'm looking for
+
+I believe in the kingdom come
+Then all the colors will bleed into one
+Bleed into one
+Well yes I'm still running
+
+You broke the bonds and you
+Loosed the chains
+Carried the cross
+Of my shame
+Of my shame
+You know I believed it
+
+But I still haven't found what I'm looking for
+But I still haven't found what I'm looking for
+But I still haven't found what I'm looking for
+But I still haven't found what I'm looking for...
+              `
+    },
+    {
+      name: `Love Will Tear Us Apart`,
+      cover:
+        'https://i1.sndcdn.com/artworks-000060349689-m43zz0-t500x500.jpg',
+      artist: 'Joy Division',
+      audio: 'https://t4.bcbits.com/stream/50a0c52fa7e0c65231a16e267f64ecbc/mp3-128/2163093904?p=0&ts=1609977011&t=0b336e691b842a0d8f91e7df1fd3e836440b6712&token=1609977011_43b4f780ae7b9592088b5f2aaac531e86d0967bf',
+      color: ['#205950', '#2ab3bf'],
+      id: uuidv4(),
+      active: false,
+      lyrics: `
+      When routine bites hard,
+And ambitions are low,
+And resentment rides high,
+But emotions won't grow,
+And we're changing our ways,
+Taking different roads.
+
+Then love, love will tear us apart again.
+Love, love will tear us apart again.
+
+Why is the bedroom so cold?
+You've turned away on your side.
+Is my timing that flawed?
+Our respect runs so dry.
+Yet there's still this appeal
+That we've kept through our lives.
+
+But love, love will tear us apart again.
+Love, love will tear us apart again.
+
+You cry out in your sleep,
+All my failings exposed.
+And there's a taste in my mouth,
+As desperation takes hold.
+Just that something so good
+Just can't function no more.
+
+But love, love will tear us apart again.
+Love, love will tear us apart again.
+Love, love will tear us apart again.
+Love, love will tear us apart again.
+              `
     },
     //ADD MORE HERE
   ];
