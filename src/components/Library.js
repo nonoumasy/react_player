@@ -1,13 +1,10 @@
 import React from 'react';
-
-// import LibrarySong from './LibrarySong';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTimes } from '@fortawesome/free-solid-svg-icons';
 import { DragDropContext, Droppable, Draggable } from "react-beautiful-dnd";
 
 const Library = ({
   songs,
-  // audioRef,
   setSongs,
   currentSong,
   setCurrentSong,
@@ -55,21 +52,6 @@ const Library = ({
           <FontAwesomeIcon icon={faTimes} size="1x" />
         </button>
       </div>
-
-      {/* <div className="library-songs">
-        {songs.map((song) => (
-          <div
-            className={`library-song ${song.id === currentSong.id ? 'active' : ''}`}
-            onClick={() => setCurrentSong(song)}
-          >
-            <img src={song.cover} alt={song.name} />
-            <div className="song-description">
-            <h3>{song.name}</h3>
-            <h4>{song.artist}</h4>
-            </div>
-          </div>
-        ))}
-      </div> */}
 
       <DragDropContext onDragEnd={onDragEnd}>
         <Droppable droppableId="droppable">

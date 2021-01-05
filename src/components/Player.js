@@ -33,16 +33,6 @@ const Player = ({
     }
   };
 
-  // event handlers
-  // const handlePlayPauseSong = () => {
-  //   if (isPlaying) {
-  //     audioRef.current.pause();
-  //   } else {
-  //     audioRef.current.play();
-  //   }
-  //   setIsPlaying((isPlaying) => !isPlaying);
-  // };
-
   const handleSeekBarDrag = (event) => {
     audioRef.current.currentTime = event.target.value;
     setSongState({ ...songState, currentTime: event.target.value });

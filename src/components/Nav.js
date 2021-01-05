@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faChevronLeft } from '@fortawesome/free-solid-svg-icons';
 
 const Nav = ({ isLibOpen, setIsLibOpen }) => {
-  //handlers
+ 
   const handleLibClick = () => {
     setIsLibOpen((isLibOpen) => !isLibOpen);
   };

@@ -40,12 +40,13 @@
   }
 }
 
-  .lyrics {
-    width: 50%;
-    text-align: center;
-    margin: 2rem 0rem;
-    white-space: pre-line;
-  }
+.lyrics-1 {
+  width: 50%;
+  // height: 6rem !important;
+  text-align: center;
+  margin: 2rem 0rem;
+  white-space: pre-line;
+}
 
 @media screen and (max-width: 768px) {
   .song-container {
