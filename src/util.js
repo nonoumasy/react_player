@@ -257,6 +257,29 @@ Love, love will tear us apart again.
 Love, love will tear us apart again.
               `
     },
+    {
+      name: `Almost Like Being In Love`,
+      cover: 'https://images-na.ssl-images-amazon.com/images/I/51h4JKi3szL.jpg',
+      artist: 'Oscar Peterson',
+      audio: 'http://www.jazz-on-line.com/a/_inc/TS490964.mp3',
+      color: ['#205950', '#2ab3bf'],
+      id: uuidv4(),
+      active: false,
+      lyrics: `What a day this has been!
+What a rare mood I'm in!
+Why, it's almost like being in love
+There's a smile on my face
+For the whole human race
+Why it's almost like being in love
+All the music of life seems to be
+Like a bell that is ringing for me
+And from the way that I feel
+When the bell starts to peal
+I would swear I was falling
+I could swear I was falling
+It's almost like being in love
+`
+    },
     //ADD MORE HERE
   ];
 }
