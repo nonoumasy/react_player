@@ -4,16 +4,25 @@ import RabbitLyrics from 'rabbit-lyrics'
 const Song = ({ currentSong, albumRef, lyricsRef, audioRef, isPlaying}) => {
 
   useEffect(() => {
-    lyricsRef.current.classList.remove("rabbit-lyrics");
-    lyricsRef.current.classList.remove("rabbit-lyrics--default");
-    lyricsRef.current.classList.remove("rabbit-lyrics--enabled");
-    lyricsRef.current.classList.remove("rabbit-lyrics--playing");
+    const r1 = () => lyricsRef.current.classList.remove("rabbit-lyrics")
+    const r2 = () => lyricsRef.current.classList.remove("rabbit-lyrics--default")
+    const r3 = () => lyricsRef.current.classList.remove("rabbit-lyrics--enabled")
+    const r4 = () => lyricsRef.current.classList.remove("rabbit-lyrics--playing");
+    // console.log('r1',  typeof r1)
 
     new RabbitLyrics({
       element: lyricsRef.current,
       mediaElement: audioRef.current,
       height: 120
     })
+
+    //cleanup code
+    return () => {
+      r1() 
+      r2() 
+      r3() 
+      r4()
+    }
     
   }, [lyricsRef, audioRef, currentSong])
   
