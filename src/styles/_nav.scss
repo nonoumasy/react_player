@@ -1,5 +1,5 @@
 nav {
-  min-height: 10vh;
+  min-height:10vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -29,6 +29,7 @@ nav {
 
 @media screen and (max-width: 760px) {
   nav {
+    height: 50px !important;
     margin: 0rem 0rem 0rem 1.5rem;
   }
 

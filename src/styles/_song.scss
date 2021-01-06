@@ -53,16 +53,23 @@
 
 @media screen and (max-width: 768px) {
   .song-container {
+    margin-top: -10px;
+    min-height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 
     .lyrics-1 {
       width: 90%;
+      margin: 1rem 0rem;
     }
     .album {
       width: 50%;
     }
 
     .albumActive {
-      width: 50%;
+      width: 35%;
     // overflow: hidden;
     animation: rotation 10s infinite linear;
     }
