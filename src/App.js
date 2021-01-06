@@ -104,12 +104,12 @@ function App() {
             <Nav isLibOpen={isLibOpen} setIsLibOpen={setIsLibOpen} />
 
             <Song 
-              currentSong={currentSong} 
-              albumRef={albumRef} 
-              audioRef={audioRef}
-              lyricsRef={lyricsRef}
-              isPlaying={isPlaying} 
-              />
+                currentSong={currentSong} 
+                albumRef={albumRef} 
+                audioRef={audioRef}
+                lyricsRef={lyricsRef}
+                isPlaying={isPlaying} 
+                />
 
             <Player
                 audioRef={audioRef}
