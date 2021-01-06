@@ -9,7 +9,7 @@ const Library = ({
   setSongs,
   currentSong,
   setCurrentSong,
-  setIsPlaying,
+  // setIsPlaying,
   isPlaying,
   isLibOpen,
   setIsLibOpen,
