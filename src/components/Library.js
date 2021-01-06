@@ -74,7 +74,7 @@ const Library = ({
                           onClick={() => clickHandler(song)}
                         >
                           <div>
-                            {isPlaying && <img src={eqGif} alt='' className={`eqGif ${song.id === currentSong.id ? 'active' : ''}`} />}
+                            {isPlaying && <img src={eqGif} alt='' className={`eqGif${song.id === currentSong.id ? 'Active' : ''}`} />}
                             
                             <img src={song.cover} alt={song.name} className={`albumCover ${song.id === currentSong.id ? 'active' : ''}`} />
                           </div>

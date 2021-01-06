@@ -4,6 +4,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  transition-duration: 2s;
+  transition-property: rotation;
   
   @keyframes rotation {
   from {
@@ -17,7 +19,7 @@
   .album {
     width: 25%;
     border-radius: 50%;
-    overflow: hidden;
+    // overflow: hidden;
     animation: rotation 100s infinite linear;
 
   }
@@ -25,7 +27,7 @@
   .albumActive {
     width: 25%;
     border-radius: 70%;
-    overflow: hidden;
+    // overflow: hidden;
     animation: rotation 10s infinite linear;
     }
 
