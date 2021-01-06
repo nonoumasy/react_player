@@ -66,23 +66,7 @@
   width: 90%;
   height:5.5rem;
 
-  // img {
-  //   // position: relative;
-  //   width: 5.5rem;
-  //   height: 5.5rem;
-  //   border-radius: 10px 0 0 10px;
-  //   // object-fit: cover;
-
-  // }
-
-  .eqGif {
-    position: absolute;
-    height: 5.5rem;
-    width: 5.5rem;
-    padding: 1.75rem;
-    z-index: 10;
-    background-color: rgba(0,0,0,0.4);
-  }
+  
 
   .albumCover {
   position: relative;
@@ -104,7 +88,21 @@
     color: white;
     font-weight: medium;
   }
+  
 }
+
+.eqGif {
+    position: absolute;
+    height: 5.5rem;
+    width: 5.5rem;
+    padding: 1.75rem;
+    z-index: 10;
+    background-color: rgba(0,0,0,0.4);
+
+    .active {
+    opacity: 100%;
+    }
+  }
 
 .song-description {
   display: flex;

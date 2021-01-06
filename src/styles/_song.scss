@@ -19,14 +19,15 @@
     border-radius: 50%;
     overflow: hidden;
     animation: rotation 100s infinite linear;
+
   }
 
-  .albumActive  {
+  .albumActive {
     width: 25%;
     border-radius: 70%;
     overflow: hidden;
     animation: rotation 10s infinite linear;
-  }
+    }
 
   
   h2 {

@@ -102,6 +102,7 @@ function App() {
     return (
         <div className={`App ${isLibOpen ? 'library-active' : ''}`}>
             <Nav isLibOpen={isLibOpen} setIsLibOpen={setIsLibOpen} />
+
             <Song 
               currentSong={currentSong} 
               albumRef={albumRef} 
@@ -109,6 +110,7 @@ function App() {
               lyricsRef={lyricsRef}
               isPlaying={isPlaying} 
               />
+
             <Player
                 audioRef={audioRef}
                 albumRef={albumRef}
@@ -125,9 +127,11 @@ function App() {
                 setIsPlaylistRepeat={setIsPlaylistRepeat}
                 handlePlayPauseSong={handlePlayPauseSong}
             />
+
             <Library
                 songs={songs}
                 setSongs={setSongs}
+                isPlaying={isPlaying}
                 currentSong={currentSong}
                 setCurrentSong={setCurrentSong}
                 setIsPlaying={setIsPlaying}

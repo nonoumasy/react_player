@@ -10,12 +10,11 @@ const Library = ({
   currentSong,
   setCurrentSong,
   setIsPlaying,
+  isPlaying,
   isLibOpen,
   setIsLibOpen,
   handlePlayPauseSong
 }) => {
-
-  // const [items, setItems] = useState([])
 
   const reorder = (list, startIndex, endIndex) => {
     const result = Array.from(list);
@@ -75,9 +74,9 @@ const Library = ({
                           onClick={() => clickHandler(song)}
                         >
                           <div>
-                            <img src={eqGif} alt='' className={`eqGif ${song.id === currentSong.id ? 'active' : ''}`}/>
-                            <img src={song.cover} alt={song.name} className={`albumCover ${song.id === currentSong.id ? 'active' : ''}`} />
+                            {isPlaying && <img src={eqGif} alt='' className={`eqGif ${song.id === currentSong.id ? 'active' : ''}`} />}
                             
+                            <img src={song.cover} alt={song.name} className={`albumCover ${song.id === currentSong.id ? 'active' : ''}`} />
                           </div>
                           
                           <div className="song-description">

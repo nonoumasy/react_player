@@ -1,11 +1,7 @@
-import React, { useRef, useEffect } from 'react';
+import React, { useEffect } from 'react';
 import RabbitLyrics from 'rabbit-lyrics'
 
 const Song = ({ currentSong, albumRef, lyricsRef, audioRef, isPlaying}) => {
-  
-
-  // console.log('lyricsRef', lyricsRef.current)
-  // console.log('audioRef', audioRef.current)
 
   useEffect(() => {
     lyricsRef.current.classList.remove("rabbit-lyrics");
@@ -16,7 +12,7 @@ const Song = ({ currentSong, albumRef, lyricsRef, audioRef, isPlaying}) => {
     new RabbitLyrics({
       element: lyricsRef.current,
       mediaElement: audioRef.current,
-      height: 120,
+      height: 120
     })
     
   }, [lyricsRef, audioRef, currentSong])
