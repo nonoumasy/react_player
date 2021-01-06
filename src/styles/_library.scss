@@ -66,8 +66,6 @@
   width: 90%;
   height:5.5rem;
 
-  
-
   .albumCover {
   position: relative;
   width: 5.5rem;
@@ -165,10 +163,24 @@
     width: 100vw;
   }
   .library-song {
-    img {
-      width: 20%;
-      height: 20%;
-    }
+
+    // .albumCover {
+    // position: relative;
+    // width: 5.5rem;
+    // height: 5.5rem;
+    // border-radius: 10px 0 0 10px;
+    // }
+
     margin: .2rem 0rem;
   }
+
+  // .eqGifActive {
+  //   position: absolute;
+  //   height: 5.5rem;
+  //   width: 5.5rem;
+  //   padding: 1.75rem;
+  //   z-index: 10;
+  //   background-color: rgba(0,0,0,0.5);
+  //   opacity: 1;
+  // }
 }
