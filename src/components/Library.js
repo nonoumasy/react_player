@@ -97,6 +97,7 @@ const Library = ({
           )}
         </Droppable>
       </DragDropContext>
+      <p className='info'>You can drag songs to reorder.</p>
         
       
     </div>
