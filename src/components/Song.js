@@ -25,6 +25,7 @@ const Song = ({ currentSong, albumRef, lyricsRef, audioRef, isPlaying}) => {
   return (
     <div className="song-container">
       <img className={`album${isPlaying ? 'Active' : ''}`} ref={albumRef} src={currentSong.cover} alt={currentSong.name}/>
+      
       <h2>{currentSong.name}</h2>
       <h3>{currentSong.artist}</h3>
       <p 

@@ -2,6 +2,7 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTimes } from '@fortawesome/free-solid-svg-icons';
 import { DragDropContext, Droppable, Draggable } from "react-beautiful-dnd";
+import eqGif from './eq-white-playing.ddbf5d0fea2cd7639172a4fedbfd5dac.gif'
 
 const Library = ({
   songs,
@@ -73,7 +74,12 @@ const Library = ({
                           className={`library-song ${song.id === currentSong.id ? 'active' : ''}`}
                           onClick={() => clickHandler(song)}
                         >
-                          <img src={song.cover} alt={song.name} />
+                          <div>
+                            <img src={eqGif} alt='' className={`eqGif ${song.id === currentSong.id ? 'active' : ''}`}/>
+                            <img src={song.cover} alt={song.name} className={`albumCover ${song.id === currentSong.id ? 'active' : ''}`} />
+                            
+                          </div>
+                          
                           <div className="song-description">
                             <h3>{song.name}</h3>
                             <h4>{song.artist}</h4>
