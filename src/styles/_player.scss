@@ -70,7 +70,7 @@ input[type='range']::-moz-range-thumb {
 }
 
 .track {
-  background: #01A4C3;
+  background: $primary-color;
   width: 100%;
   height: 5px;
   position: relative;
