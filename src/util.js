@@ -135,23 +135,29 @@ function chillHop() {
       color: ['#CD607D', '#c94043'],
       id: uuidv4(),
       active: false,
-      lyrics: `The sun comes up, another day begins 
-                And I don't even worry about the state I'm in
-                My head's so heavy and I'm looking thin
-                But when the sun goes down I'm gonna start again`
-    },
-    {
-      name: 'You Trip me Up',
-      cover:
-        'https://www.rhino.com/sites/rhino.com/files/styles/article_image/public/2018-07/081227993702.jpg?itok=BfHQJWQh',
-      artist: 'Jesus Mary Chain',
-      audio: 'https://ia803002.us.archive.org/30/items/Psychocandy/13YouTripMeUp.mp3',
-      color: ['#205950', '#2ab3bf'],
-      id: uuidv4(),
-      active: false,
-      lyrics:`Sometimes I walk sideways to avoid you when I've annoyed you
-              Love's like the mighty ocean when it's frozen that is your heart
-              What would I be if I could free, I couldn't even walk, you trip me up`
+      lyrics: `
+      The sun comes up another day begins
+And I don't even worry about the state I'm in
+Head so heavy and I'm looking thin
+But when the sun goes down I want to start again
+You never understandin'
+You never understand me
+Yeah
+
+Don't turn around until you look at me
+Why don't you take a second and tell me what you see
+Things I see you only disagree
+You never understand that's what I want to be
+You never understandin'
+You never understand me
+Yeah
+
+Not wishing to hide but you just can't see me
+I tell you the truth but you don't believe me
+Thinking of love but I can't hear what you're saying
+Tomorrow I'm leaving
+Cause I'm not understanding you
+`
     },
     {
       name: `I Still Haven't Found What I'm Looking For`,
