@@ -59,11 +59,12 @@
   flex-direction: row;
   margin: .2rem 0rem;
   cursor: pointer;
-  border-radius: 10px;
   background: rgb(238, 240, 242);
   overflow: hidden;
+  border-radius: 10px;
   transition: background 0.5s ease;
   width: 90%;
+  height:5.5rem;
 
   // img {
   //   // position: relative;
