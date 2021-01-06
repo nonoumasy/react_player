@@ -51,8 +51,18 @@
 
 @media screen and (max-width: 768px) {
   .song-container {
+
+    .lyrics-1 {
+      width: 90%;
+    }
     .album {
       width: 50%;
+    }
+
+    .albumActive {
+      width: 50%;
+    // overflow: hidden;
+    animation: rotation 10s infinite linear;
     }
   }
 }
