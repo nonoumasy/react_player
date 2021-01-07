@@ -1,4 +1,5 @@
-import React, { useEffect} from 'react';
+/* eslint-disable react/prop-types */
+import React, { useEffect } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faPlay,
@@ -10,30 +11,27 @@ import { playAudio } from '../utilities/playAudio';
 
 const Player = ({
   isPlaying,
-  setIsPlaying,
   currentSong,
   nextSong,
   prevSong,
   buttonStatus,
   audioRef,
-  albumRef,
   songState,
   setSongState,
-  handlePlayPauseSong
+  handlePlayPauseSong,
 }) => {
-
   // helpers
   const getNormalTime = (time) => {
     if (time) {
       return (
-        Math.floor(time / 60) + ':' + ('0' + Math.floor(time % 60)).slice(-2)
+        `${Math.floor(time / 60)}:${(`0${Math.floor(time % 60)}`).slice(-2)}`
       );
-    } else {
-      return '0:00';
     }
+    return '0:00';
   };
 
   const handleSeekBarDrag = (event) => {
+    // eslint-disable-next-line no-param-reassign
     audioRef.current.currentTime = event.target.value;
     setSongState({ ...songState, currentTime: event.target.value });
   };
@@ -56,7 +54,7 @@ const Player = ({
         <p>{getNormalTime(songState.currentTime)}</p>
         <div
           style={{
-            background: "#01A4C3",
+            background: '#01A4C3',
           }}
           className="track"
         >
@@ -67,13 +65,13 @@ const Player = ({
             value={songState.currentTime}
             onChange={handleSeekBarDrag}
           />
-          <div style={trackAnimation} className="animate-track"></div>
+          <div style={trackAnimation} className="animate-track" />
         </div>
         <p>{getNormalTime(songState.duration)}</p>
       </div>
 
       <div className="play-control">
-        <button disabled={!buttonStatus.previous}>
+        <button type="button" disabled={!buttonStatus.previous}>
           <FontAwesomeIcon
             className="skip-back"
             size="2x"
@@ -81,7 +79,7 @@ const Player = ({
             onClick={prevSong}
           />
         </button>
-        <button>
+        <button type="button">
           <FontAwesomeIcon
             className="play"
             size="2x"
@@ -90,7 +88,7 @@ const Player = ({
 
           />
         </button>
-        <button disabled={!buttonStatus.next}>
+        <button type="button" disabled={!buttonStatus.next}>
           <FontAwesomeIcon
             className="skip-forward"
             size="2x"
