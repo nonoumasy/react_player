@@ -50,7 +50,7 @@ function chillHop() {
 [03:01.00]I want your candy. I want your candy.
 [03:05.00]I want your candy. I want your candy.
 [03:10.00]I want stuff
-      `
+      `,
     },
     {
       name: 'Just Like Honey',
@@ -96,7 +96,7 @@ function chillHop() {
 [02:42.09]Just like honey
 [02:45.91]Just like honey
 [02:49.77]Just like honey
-      `
+      `,
     },
     {
       name: 'Taste of Cindy',
@@ -124,7 +124,7 @@ function chillHop() {
 [01:11.00]Knife to my head when she talks so sweetly
 [01:15.00]Knife in my head when I think of Cindy
 [01:18.00]Knife in my head is the taste of Cindy
-      `
+      `,
     },
     {
       name: 'Never Understand',
@@ -157,10 +157,10 @@ I tell you the truth but you don't believe me
 Thinking of love but I can't hear what you're saying
 Tomorrow I'm leaving
 Cause I'm not understanding you
-`
+`,
     },
     {
-      name: `I Still Haven't Found What I'm Looking For`,
+      name: 'I Still Haven\'t Found What I\'m Looking For',
       cover:
         'https://images-na.ssl-images-amazon.com/images/I/71nhNKvy%2BfL._SL1059_.jpg',
       artist: 'U2',
@@ -212,7 +212,7 @@ But I still haven't found what I'm looking for
 But I still haven't found what I'm looking for
 But I still haven't found what I'm looking for
 But I still haven't found what I'm looking for...
-              `
+              `,
     },
   ];
 }
