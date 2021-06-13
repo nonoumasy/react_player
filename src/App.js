@@ -1,18 +1,17 @@
-/* eslint-disable semi */
 /* eslint-disable jsx-a11y/media-has-caption */
-import React, { useState, useRef } from "react"
-
+/* eslint-disable no-tabs */
+import React, { useState, useRef } from 'react'
 // styles
-import "./styles/app.scss"
+import './styles/app.scss'
 
 // data
-import data from "./util"
+import data from './util'
 
 // components
-import Nav from "./components/Nav"
-import Song from "./components/Song"
-import Player from "./components/Player"
-import Library from "./components/Library"
+import Nav from './components/Nav'
+import Song from './components/Song'
+import Player from './components/Player'
+import Library from './components/Library'
 
 function App() {
 	const audioRef = useRef(null)
@@ -52,7 +51,7 @@ function App() {
 		const index = songs.findIndex((song) => song.id === currentSong.id)
 
 		switch (direction) {
-			case "next":
+			case 'next':
 				if (isPlaylistRepeat) {
 					if (index === songs.length - 1) {
 						setCurrentSong(songs[0])
@@ -67,7 +66,7 @@ function App() {
 					setButtonStatus({ next: true, previous: true })
 				}
 				break
-			case "previous":
+			case 'previous':
 				if (isPlaylistRepeat) {
 					if (index === 0) {
 						setCurrentSong(songs[songs.length - 1])
@@ -100,7 +99,7 @@ function App() {
 
 	return (
 		// eslint-disable-next-line react/jsx-filename-extension
-		<div className={`App ${isLibOpen ? "library-active" : ""}`}>
+		<div className={`App ${isLibOpen ? 'library-active' : ''}`}>
 			<Nav isLibOpen={isLibOpen} setIsLibOpen={setIsLibOpen} />
 
 			<Song
@@ -120,8 +119,8 @@ function App() {
 				setSongState={setSongState}
 				isPlaying={isPlaying}
 				setIsPlaying={setIsPlaying}
-				nextSong={() => handleChangeSong("next")}
-				prevSong={() => handleChangeSong("previous")}
+				nextSong={() => handleChangeSong('next')}
+				prevSong={() => handleChangeSong('previous')}
 				buttonStatus={buttonStatus}
 				isPlaylistRepeat={isPlaylistRepeat}
 				setIsPlaylistRepeat={setIsPlaylistRepeat}
@@ -146,7 +145,7 @@ function App() {
 				type="audio/mpeg"
 				onTimeUpdate={handleSongTimer}
 				onLoadedMetadata={handleSongTimer}
-				onEnded={() => handleChangeSong("next")}
+				onEnded={() => handleChangeSong('next')}
 			/>
 		</div>
 	)
